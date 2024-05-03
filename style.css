@@ -1,35 +1,43 @@
-body{
+body {
     background-color: var(--color-bg);
 }
+
 /* Dark Mode */
 [data-theme="dark"] {
     --color-bg: #484848;
+    --color-btn: #015f04;
+    --color-ctn: #998973;
 }
 
-[data-theme="light"]  {
-    --color-bg:antiquewhite;
+[data-theme="light"] {
+    --color-bg: antiquewhite;
+    --color-btn: #004002;
+    --color-ctn: #d7c8b3;
 }
 
 h1 {
     text-align: center;
 }
 
-.container{
+.container {
     width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: var(--color-bg);
+    background-color: var(--color-ctn);
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
 }
 
 input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    font-family: 'Courier New', Courier, monospace;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #adadad;
+    border-radius: 5px;
     box-sizing: border-box;
+    background-color: #fff5e7;
 }
 
 #output {
@@ -39,22 +47,25 @@ input {
     display: inline-block;
     border: none;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: var(--color-ctn);
     cursor: none;
 }
 
 .button {
-    background-color: #015f04; /* Green */
+    background-color: var(--color-btn);
+    /* Green */
     border-radius: 30px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    padding: 15px 50px;
+    font-weight: bolder;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 50px;
 }
 
 /* Dark Mode Button Styles */
@@ -78,7 +89,7 @@ input {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #552a63;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px;
@@ -98,11 +109,11 @@ input {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #5c92cb;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #5c92cb;
 }
 
 input:checked+.slider:before {
