@@ -20,8 +20,6 @@ This project is a simple calculator implemented in JavaScript, inspired by the d
 3. Use the calculator by clicking on the buttons or typing directly into the input field.
 4. Enjoy calculating!
 
-You can try it this link 
-
 ## Code Overview
 
 - The calculator functionality is implemented in `calculator.js`.
@@ -33,4 +31,6 @@ You can try it this link
 ## Acknowledgments
 
 This project was created as a learning exercise and was inspired by the design and functionality of the iPhone calculator.
+
+
 ![image](https://github.com/ptmp25/Calculator-js/assets/68309978/d8974e74-9a1b-4d20-b7bb-46fa433dba98)
