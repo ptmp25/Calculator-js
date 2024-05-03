@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#output {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    cursor: none;
+}
+
+.button {
+    background-color: #015f04; /* Green */
+    border-radius: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
