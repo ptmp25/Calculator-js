@@ -65,3 +65,14 @@ equal_btn.addEventListener('click', () => {
     input.value = eval(output.value);
     check = 0;
 });
+
+const modeToggle = document.getElementById('modeToggle');
+const body = document.body;
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark');
+    if (body.classList.contains('dark')) {
+        modeToggle.textContent = 'Light Mode';
+    } else {
+        modeToggle.textContent = 'Dark Mode';
+    }
+});
